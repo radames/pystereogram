@@ -1,7 +1,7 @@
 import numpy as np
 cimport numpy as np
 DTYPE = np.int64
-ctypedef np.int_t DTYPE_t
+ctypedef np.int64_t DTYPE_t
 
 
 def compute_stereogram_line(
